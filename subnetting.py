@@ -147,7 +147,7 @@ class BySubnet:
 
 class ByHost:
     def __init__(self, ip_address, mask):
-    #inputs
+        #inputs
         number_of_hosts = int(input("ENTER NUMBER OF HOSTS: "))
         
         #step 1
