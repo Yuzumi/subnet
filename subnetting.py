@@ -93,7 +93,7 @@ class BySubnet:
         address = list(map(int, address))
 
         network_addresses = []
-        for _ in range(5):  # Adjust the range as needed
+        for _ in range(5):  
             network_addresses.append('.'.join(map(str, address)))
             address[octet - 4] += increment_value
             for i in range(3, -1, -1):
@@ -239,7 +239,7 @@ class ByHost:
         address = list(map(int, address))
 
         network_addresses = []
-        for _ in range(5):  # Adjust the range as needed
+        for _ in range(5):  
             network_addresses.append('.'.join(map(str, address)))
             address[octet - 4] += increment_value
             for i in range(3, -1, -1):

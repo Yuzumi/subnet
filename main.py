@@ -13,11 +13,13 @@ CHOICES = {
 }
 
 while True:
-    print("MENU")
+    print("-------------------------")
+    print("          MENU")
+    print("-------------------------")
     print("[1] BY NUMBER OF SUBNETS")
     print("[2] BY NUMBER OF HOSTS")
     print("[3] EXIT")
-    print("------------------")
+    print("-------------------------")  
 
     choice = int(input("ENTER YOUR CHOICE: "))
 
