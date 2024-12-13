@@ -7,9 +7,6 @@ def by_subnet(ip_address, mask):
 def by_host(ip_address, mask):
     ByHost(ip_address, mask)
 
-def _exit_(ip_address, mask):
-    exit()
-
 CHOICES = {
     1: by_subnet,
     2: by_host,
